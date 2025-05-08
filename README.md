@@ -1,6 +1,6 @@
 # 🚗 Car Model Identification Using Deep Learning
 
-This project uses a Convolutional Neural Network (CNN) to classify car images into specific models based on the [Stanford Cars Dataset](https://ai.stanford.edu/~jkrause/cars/car_dataset.html). The model is trained using PyTorch and evaluated with multiple classification metrics.
+This project uses a Convolutional Neural Network (CNN) to classify car images into specific models based on the [Stanford Cars Dataset](https://www.kaggle.com/datasets/jutrera/stanford-car-dataset-by-classes-folder). The model is trained using PyTorch and evaluated with multiple classification metrics.
 
 ---
 
@@ -27,7 +27,7 @@ The dataset is split into train and test folders, each containing subfolders rep
 
 ## 🧠 Model Architecture
 
-The model is based on a pretrained convolutional neural network (e.g., ResNet18). Transfer learning is used to adapt it for fine-grained car classification.
+The model is based on ResNet-50, a deep convolutional neural network renowned for its performance in image classification tasks. By leveraging transfer learning, the pretrained ResNet-50 model is fine-tuned to classify car images into specific models.
 
 ---
 
@@ -43,13 +43,12 @@ Key steps in training:
 
 ## 📊 Results
 
-- **Accuracy:** XX%
-- **Precision:** XX%
-- **Recall:** XX%
+- **Accuracy:** 93.00%
+- **Precision:** 0.93
+- **Recall:** 0.93
 - Classification report and confusion matrix are generated.
 - Sample training and validation loss curves are plotted.
 
-*(Note: Replace `XX%` with your actual results)*
 
 ---
 
